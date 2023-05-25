@@ -1,0 +1,32 @@
+model-language:
+
+  3Bname: RWKV-4-Raven-3B 
+
+  3Bpath: ./Language/RWKV-4-Raven-3B-v11-Eng49%-Chn49%-Jpn1%-Other1%-20230429-ctx4096.pth 
+
+  
+  7Bname: RWKV-4-Raven-7B
+
+  7Bpath: './Language/RWKV-4-Raven-7B-v11-Eng49%-Chn49%-Jpn1%-Other1%-20230430-ctx8192.pth' 
+
+  tokenizer: ./20B_tokenizer.json
+
+model-visual-caption:
+  
+  Bname: blip-image-captioning-large 
+
+  Bpath: ./Visual/blip-image-captioning-large 
+
+  Vname: vit-gpt2-image-captioning
+
+  Vpath: ./Visual/vit-gpt2-image-captioning 
+
+model-visual-qa:
+
+  Bname: blip-vqa-capfilt-large
+
+  Bpath: ./Visual/blip-vqa-capfilt-large 
+  
+  Vname: vilt-b32-finetuned-vqa
+
+  Vpath: ./Visual/vilt-b32-finetuned-vqa
