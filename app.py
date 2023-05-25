@@ -17,7 +17,7 @@ translatemodel = EasyNMT('opus-mt')
 ctx_limit = 2048 #3B模型最大值为4096，7B为8192
 title = "MiniRWKV-4：基于RWKV-4 + BLIP/VIT-GPT的多模态图文对话大模型"
 description = """<h3>MiniRWKV-4的例子，上传你的图片并开始聊天!</h3>"""
-article = """<p>开源地址：<a href='https://github.com/Vision-CAIR/MiniGPT-4'>StarRing2022/MiniRWKV-4</a></p>"""
+article = """<p>开源地址：<a href='https://github.com/StarRing2022/MiniRWKV-4'>StarRing2022/MiniRWKV-4</a></p>"""
 
 def readcog(path):
     with open(path, 'r',encoding='UTF-8') as file:
