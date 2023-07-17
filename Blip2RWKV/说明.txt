@@ -3,7 +3,4 @@ modeling_blip2rwkv.py 为主要代码，基于BLIP2，构建了RWKV的QFormer
 RWKV使用了https://huggingface.co/StarRing2022/RWKV-4-Raven-3B-v11-zh
 BERT和RWKV均使用中文
 
-由于时间，精力有限，如果要批量训练，上层应该添加Trainer代码，只需要 批量构建样本即可
-sample = {"image": image, "text_input": [text_input]}
-
 当前，更多是一个图像的RWKV语言编码器
