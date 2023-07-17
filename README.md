@@ -1,5 +1,5 @@
 # MiniRWKV-4
-1.项目介绍：<br>
+1.工程介绍：<br>
 为使RWKV模型能够具有图文描述，对话，推理等多模态图文能力，主要使用了RWKV作为LLM模型，再配合CLIP，VIT等预训练模型，和Two Stage二阶段思维连提示工程技巧，完成工作。 <br>
 
 新添加的blip2rwkv工程，则是实现了使用预训练的RWKV Raven（RWKV World模型同理，只是词表和tokenizer不同，而Dlip-RWKV则基于了RWKV World模型）预训练模型，对图片进行编码。  <br>
