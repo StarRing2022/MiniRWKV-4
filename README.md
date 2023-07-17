@@ -10,7 +10,7 @@ RWKV-4-Raven-3B、RWKV-4-Raven-7B（原生pth，推荐V11或V12的Eng49%-Chn49%�
 blip-image-captioning-large、vit-gpt2-image-captioning、blip-vqa-capfilt-large、vilt-b32-finetuned-vqa、vilt-b32-finetuned-vqa（图片-文本链接模型）<br>
 EasyNMT（中英文翻译模型）
 
-3，使用<br>
+3.使用：<br>
 环境：WIN10+Torch1.31+Cuda11.6
 python app.py
 一些测试结果在assets文件夹
