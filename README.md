@@ -4,7 +4,7 @@
 
 新添加的blip2rwkv工程，则是实现了使用预训练的RWKV Raven（RWKV World模型同理，只是词表和tokenizer不同，而Dlip-RWKV则基于了RWKV World模型）预训练模型，对图片进行编码。  <br>
 
-要注意的是，blip2rwkv使用的RWKV Raven模型为HF格式，而非原生Pth，见https://huggingface.co/StarRing2022/RWKV-4-World-3B/ <br>
+要注意的是，blip2rwkv使用的RWKV Raven模型为HF格式，而非原生Pth，见https://huggingface.co/StarRing2022/RWKV-4-Raven-3B-v11-zh <br>
 
 2.主要聚合模型：<br>
 config/minirwkv4.yaml 文件中有详细配置<br>
