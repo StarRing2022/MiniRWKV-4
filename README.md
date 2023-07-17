@@ -11,6 +11,6 @@ blip-image-captioning-large、vit-gpt2-image-captioning、blip-vqa-capfilt-large
 EasyNMT（中英文翻译模型）
 
 3.使用：<br>
-环境：WIN10+Torch1.31+Cuda11.6
-python app.py
+环境：WIN10+Torch1.31+Cuda11.6<br>
+python app.py<br>
 一些测试结果在assets文件夹
